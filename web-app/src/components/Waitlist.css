@@ -1,0 +1,89 @@
+
+.main-header-waitlist{
+    height: 100%;
+    background-image: url("../img/car.jpeg"), linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+    background-blend-mode: overlay;;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.content{
+    margin: 10px;
+    border: 3px var(--input-light-grey) solid ;
+    max-width: 485px;
+    padding: 30px
+}
+
+.join-waitlist{
+    padding-top: 20px;
+    color: white;
+    font-weight:400;
+    letter-spacing: 0;
+    font-size: 54px;
+}
+
+.sub-title{
+    font-size: 30px;
+    color: white;
+    font-weight: 200;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.switch{
+
+}
+.switchText{
+
+}
+.errorText{
+    color: red;
+}
+/* const styles = {
+    container: [t.flex1, t.justifyCenter, t.itemsCenter, t.p6, t.bgGray200],
+    switch: [t.mB4, t.selfStart, t.flexRow, t.itemsCenter],
+    switchText: [t.textBase, t.mR3, t.textGray800],
+    errorText: [ t.textRed500]
+  }; */
+.input{
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: var(--input-light-grey);
+    box-shadow: 5px var(--black);
+    font-weight: 400;
+    line-height: 1.5;
+    color: black;
+    background-clip: padding-box;
+    -webkit-appearance: none;
+    appearance: none;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.sign-up{
+    font-size: 30px;
+    font-weight: 500;
+     color: var(--black);
+      border-radius: 50px;
+      background-color: var(--malibu);
+      align-self: center;
+
+}
+.next-image{
+    align-self: center;
+    padding-left: 15px;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+.waitlist{
+    background-color: var(--input-light-grey);
+    margin-right: 10px
+}

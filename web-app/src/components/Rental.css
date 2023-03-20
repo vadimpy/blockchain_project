@@ -1,0 +1,12 @@
+.main-header-rental{
+    height: 100%;
+    background-image: url("../img/rent.jpeg"), linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+    background-blend-mode: overlay;;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
